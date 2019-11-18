@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/bootstrap-responsive.min.css" />
+    <link rel="stylesheet" href="css/matrix-login.css" />
+    <link href="font-awesome/css/font-awesome.css" rel="stylesheet" />
+    <title>VotoApp</title>
+</head>
+<body>
+     <div id="loginbox">            
+         <form id="formularioIngreso" class="form-vertical" action="index.html">
+             <div class="control-group normal_text"> 
+                 <h3><i class="icon-bookmark"></i>&nbsp;VotoApp</h3>
+             </div>
+             <div id="espacioMensajes"></div>
+             <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_lg"><i class="icon-user"> </i></span><input type="text" id="cmpUsuario" placeholder="Nombre de Usuario" />
+                    </div>
+                </div>
+            </div>
+            <div class="control-group">
+                <div class="controls">
+                    <div class="main_input_box">
+                        <span class="add-on bg_ly"><i class="icon-lock"></i></span><input type="password" id="cmpClave" placeholder="Clave" />
+                    </div>
+                </div>
+            </div>
+            <div class="form-actions text-center">
+                <button type="submit" class="btn btn-large btn-default">
+                     <i class="icon-arrow-right"></i>&nbsp;Ingresar
+                </button>
+            </div>
+        </form>
+    </div>
+    
+    <script src="scripts/login.js"></script>
+</body>
+</html>
